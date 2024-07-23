@@ -6,3 +6,7 @@ app = fastAPI
 def index():
     return {"message": "Hello World"}
 
+
+@app.get("/about")
+def index():
+    return {"message": "Hello World"}
